@@ -81,6 +81,7 @@ public class TestGrid {
 
       
         player.move("d"); //move right
+    //    assertEquals(player,grid.getGrid()[9][0]);
         grid.placeSprite(player, "d");
 
         assertEquals(player, grid.getGrid()[9][1], "Player should be at [9][1] after moving right");
