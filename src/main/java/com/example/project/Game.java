@@ -312,8 +312,7 @@ public class Game{
         //enemy definition
 
          enemies = new Enemy[2];
-         enemies[0] = new Enemy(4d
-         , 0);
+         enemies[0] = new Enemy(4, 0);
          enemies[1] = new Enemy(9, 1);
 
         //treasures
